@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: whitesmoke;
+}
+
+
+.content{
+    height: 969px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.content .main{
+    height: 400px;
+    width: 800px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.content .main .left{
+    background-color: mediumblue;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.content .main .left .left-items img{
+    width:150px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+    
+    
+}
+
+.content .main .left .left-items .anamika{
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 15px;
+    font-size: 20px;
+}
+
+.content .main .left .left-items .position{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.content .main .right{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+.content .main .right .right-items .social-media{
+    text-align: center;
+   
+}
+
+.content .main .right .right-items .social-media .facebook{
+    width: 48px; 
+    position: relative;
+    top: 150px;
+    right: 100px;   
+}
+
+.content .main .right .right-items .social-media .twitter{
+    width: 48px; 
+    position: relative;
+    top: 98px;
+    right: 35px;
+       
+}
+
+.content .main .right .right-items .social-media .instagram{
+    width: 50px; 
+    width: 50px; 
+    position: relative;
+    top: 43px;
+    right: -35px;    
+}
+
+.content .main .right .right-items .social-media .youtube{
+    width: 46px;  
+    position: relative;
+    top: -10px;
+    right: -100px;  
+     
+}
+
+
+.content .main .right .right-items .about{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    border-left-color:white ;
+    border-right-color: white;
+    border-top-color: white;
+}
+
+.content .main .right .right-items .email{
+    position: relative;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 40px;
+}
+
+.content .main .right .right-items .alex{
+    position: relative;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 75px;
+    right: 45px;
+}
+
+
+.content .main .right .right-items .phone{
+    position: relative;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 40px;
+    left: 70px;
+}
+
+.content .main .right .right-items .number{
+    position: relative;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 75px;
+    left: 20px;
+}
